@@ -31,8 +31,8 @@ object Form1: TForm1
       'ial Catalog=AdventureWorks2019;Data Source=JL\DEV2019;Initial Fi' +
       'le Name="";Server SPN=""'
     Provider = 'SQLNCLI11.1'
-    Left = 120
-    Top = 192
+    Left = 136
+    Top = 200
   end
   object DataSource1: TDataSource
     DataSet = ADOTable1
