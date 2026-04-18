@@ -1,0 +1,22 @@
+# Delphi build files
+*.dcu
+*.dcp
+*.dcpil
+*.dproj.local
+*.identcache
+*.local
+*.stat
+*.tvsconfig
+*.dsk
+
+# Backup files
+*.~*
+*.bak
+
+# Generated files
+__history/
+__recovery/
+Win32/Debug/
+Win32/Release/
+Win64/Debug/
+Win64/Release/
