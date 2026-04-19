@@ -23,6 +23,7 @@ type
 
 var
   Form1: TForm1;
+  i:integer;
 
 implementation
 
