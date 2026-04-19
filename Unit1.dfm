@@ -12,8 +12,8 @@ object Form1: TForm1
   Font.Style = []
   TextHeight = 15
   object DBGrid1: TDBGrid
-    Left = 296
-    Top = 160
+    Left = 224
+    Top = 280
     Width = 320
     Height = 120
     DataSource = DataSource1
@@ -31,8 +31,8 @@ object Form1: TForm1
       'ial Catalog=AdventureWorks2019;Data Source=JL\DEV2019;Initial Fi' +
       'le Name="";Server SPN=""'
     Provider = 'SQLNCLI11.1'
-    Left = 120
-    Top = 192
+    Left = 152
+    Top = 232
   end
   object DataSource1: TDataSource
     DataSet = ADOTable1
