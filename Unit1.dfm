@@ -13,7 +13,7 @@ object Form1: TForm1
   TextHeight = 15
   object DBGrid1: TDBGrid
     Left = 296
-    Top = 160
+    Top = 248
     Width = 320
     Height = 120
     DataSource = DataSource1
@@ -25,14 +25,13 @@ object Form1: TForm1
     TitleFont.Style = []
   end
   object ADOConnection1: TADOConnection
-    Connected = True
     ConnectionString = 
       'Provider=SQLNCLI11.1;Persist Security Info=False;User ID=sa;Init' +
       'ial Catalog=AdventureWorks2019;Data Source=JL\DEV2019;Initial Fi' +
-      'le Name="";Server SPN=""'
+      'le Name="";Server SPN="";'
     Provider = 'SQLNCLI11.1'
-    Left = 120
-    Top = 192
+    Left = 80
+    Top = 216
   end
   object DataSource1: TDataSource
     DataSet = ADOTable1
